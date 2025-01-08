@@ -1,0 +1,1 @@
+# Game-Notification-with-AWS-Lambda-Amazon-SNS-and-AmazonBridge
