@@ -1,1 +1,1 @@
-# Game-Notification-with-AWS-Lambda-Amazon-SNS-and-AmazonBridge
+# NBA Game Notifications Alert System 
