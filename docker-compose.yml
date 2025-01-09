@@ -2,10 +2,9 @@ version: '3.8'
 
 services: 
   terraform:
-    build: .
+    image: hashicorp/terraform:latest
     volumes: 
       - .:/workspace
-    environment:
-      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
-      AWS_SECRET_ACCESS_KEY: :${AWS_SECRET_ACCESS_KEY}
-    command: ["terraform", "apply", "-auto-aprove"]
+    env_file:
+      - .env
+    command: terraform apply -auto-prove
