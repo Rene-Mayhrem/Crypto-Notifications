@@ -49,7 +49,7 @@ resource "aws_sns_topic" "crypto_notifications" {
 resource "aws_sns_topic_subscription" "email_subscription" {
   topic_arn = aws_sns_topic.crypto_notifications.arn
   protocol  = "email"
-  endpoint  = "renecruz.0711@gmail.com"
+  endpoint  = "your-email"
 }
 
 resource "aws_lambda_function" "crypto_notifications_lambda" {
