@@ -1,10 +1,11 @@
 version: '3.8'
 
 services: 
-  terraform:
+  terraform_container:
     image: hashicorp/terraform:latest
     volumes: 
       - .:/workspace
+    working_dir: /workspace
     env_file:
       - .env
-    command: terraform apply -auto-prove
+    command: "apply -auto-approve"
