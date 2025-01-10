@@ -1,10 +1,10 @@
-# NBA Game Notifications Alert System 
+# Crypto Notifications Alert System 
 
 This project is an AWS Notification System that uses AWS Lambda and an external API to fetch NBA game data and send notifications via Amazon SNS.
 
 ## Table of Contents
 
-- [NBA Game Notifications Alert System](#nba-game-notifications-alert-system)
+- [Crypto Notifications Alert System](#crypto-notifications-alert-system)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Architecture Diagram](#architecture-diagram)
@@ -14,7 +14,7 @@ This project is an AWS Notification System that uses AWS Lambda and an external 
 
 ## Overview 
 
-The NBA Game Notifications Alert System fetches NBA game data from an external API and sends notifications about the games' status, scores, and other details via Amazon SNS.
+The Crypto Notifications Alert System fetches Cryptocurrency data from an external API and sends notifications about the price, date, and other details via Amazon SNS.
 
 ## Architecture Diagram
 ![Architecture Diagram](img/architecture.drawio)
